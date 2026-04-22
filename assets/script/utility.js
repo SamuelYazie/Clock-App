@@ -20,8 +20,8 @@ function create(element, parent = document) {
     return parent.createElement(element);
 }
 
-function print(...args) {
-    console.log(args.join(', '));
+function print(args) {
+    console.log(args);
 }
 
 export { onEvent, select, selectById, selectAll, create, print };

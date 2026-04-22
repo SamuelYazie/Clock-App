@@ -12,21 +12,38 @@
         <script type="module" src="./assets/script/index.js"></script>
     </head>
     <body>
-      <div class="clock">
-        <div class="time hour">
-          <p id="hours"></p>
-          <h2>hours</h2>
+      <div class="container">
+        <div class="clock">
+          <div class="time hour">
+            <p id="hours"></p>
+            <h2>hours</h2>
+          </div>
+          <div class="time minute">
+            <p id="minutes"></p>         
+            <h2>minutes</h2>
+          </div>
+          <div class="time second">
+            <p id="seconds"></p>
+            <h2>seconds</h2>
+          </div>
+          <div class="ampm">
+            <p id="ampm"></p>
+          </div>
         </div>
-        <div class="time minute">
-          <p id="minutes"></p>         
-          <h2>minutes</h2>
-        </div>
-        <div class="time second">
-          <p id="seconds"></p>
-          <h2>seconds</h2>
-        </div>
-        <div class="ampm">
-          <p id="ampm"></p>
+        <div class="date">
+          <div class="day-week">
+            <p id="weekDay"></p>
+          </div>
+          <div class="current-month">
+            <p id="month"></p>
+          </div>
+            <div class="date-of-month">
+            <p id="month-date"></p>
+          </div>
+          <div class="the-year">
+            <p id="full-year"></p>
+          </div>
+          </div>
         </div>
       </div>
     </body>

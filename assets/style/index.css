@@ -15,16 +15,24 @@ body {
   background: url(../img/seyfettin-dincturk-3R_b1uS3MJk-unsplash.jpg) center;
 }
 
-.clock {
-    display: flex;
+.clock, .date {
+  display: flex;
 }
 
-.time {
+.clock {
+  margin-bottom: 30px;
+}
+
+.time, .date div {
     margin-right: 20px;
 }
 
 p, h2 {
-    color: #fff;
-    text-align: center;
-    font-size: 36px;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+}
+  
+  .date p {
+  font-weight: bold;
 }

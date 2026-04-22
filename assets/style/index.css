@@ -12,7 +12,7 @@ body {
   height: 100dvh;
   display: grid;
   place-items: center;
-  background: url(./seyfettin-dincturk-3R_b1uS3MJk-unsplash.jpg) center;
+  background: url(../img/seyfettin-dincturk-3R_b1uS3MJk-unsplash.jpg) center;
 }
 
 .clock {
